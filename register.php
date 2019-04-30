@@ -24,10 +24,6 @@
             $regUser = $_POST["regUser"];
             $regPass = $_POST["regPass"];
 
-            $dataLocation = 'user_data.json';
-            $getUserData = file_get_contents($dataLocation);
-            $userData = json_decode($getUserData);
-
         foreach($userData as $data){
             $users[] = $data->username;
         }

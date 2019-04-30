@@ -3,6 +3,11 @@
 $salt1 = "qwerty69";
 $salt2 = "420blaze1t";
 
+$dataLocation = 'user_data.json';
+$getUserData = file_get_contents($dataLocation);
+$userData = json_decode($getUserData);
+
+
 function registerAccount($regUser, $regPass, $salt1, $salt2) {
 
     $getUserData = file_get_contents('user_data.json');
