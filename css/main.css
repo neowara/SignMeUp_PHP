@@ -1,0 +1,33 @@
+body {
+    background: rgba(200, 120, 20, 0.8);
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.4rem;
+}
+
+.content , p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+h5 {
+    margin: 0;
+}
+
+p {
+    color: red;
+}
+
+.button {
+    padding: 4px;
+    margin-top: 1rem;
+}
+
+a {
+    text-decoration: none;
+}
